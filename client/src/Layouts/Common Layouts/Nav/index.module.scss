@@ -1,0 +1,26 @@
+#Nav{
+    padding: 0 3em;
+    height: 70px;
+    background-color: var(--greenB);
+
+    .container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .Logo{
+            color: #433443;
+        }
+
+        .navList{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            column-gap: 1em;
+            color: #fff;
+
+        }
+    }
+}

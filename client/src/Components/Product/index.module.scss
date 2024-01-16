@@ -1,0 +1,34 @@
+#Product{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    .imgBox{
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1em;
+    }
+
+    .title{
+        font-size: 1.7em;
+        color: var(--greenT);
+        margin-bottom: 0.5em;
+    }
+
+    .price{
+        color: var(--greenT);
+        margin-bottom: 1em;
+    }
+
+    .heartIcon{
+        border: 0;
+        border-radius: 0;
+        background-color: transparent;
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+}

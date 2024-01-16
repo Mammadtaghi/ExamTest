@@ -1,0 +1,24 @@
+#FlowerPricing {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .subTitle {
+        margin-bottom: 1em;
+    }
+
+    .title {
+        margin-bottom: 3em;
+    }
+
+    .grid {
+        display: grid;
+        place-items: baseline center;
+        justify-content: center;
+        grid-template-areas:
+            "grid1 grid2 grid3"
+            "grid4 grid5 grid6";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
